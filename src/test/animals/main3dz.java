@@ -1,5 +1,8 @@
 package animals;
 
+import java.util.ArrayList;
+import java.util.List;
+
 class main3dz {
 
     public static void main(String[] args) {
@@ -48,6 +51,12 @@ class main3dz {
         Duck_dz duck = new Duck_dz();
         duck.say();
         duck.Fly();
+
+
+        List<String> animal = new ArrayList<>();
+
+        animal.add("Rany");//0
+        System.out.println(animal.get(0));
     }
 
 

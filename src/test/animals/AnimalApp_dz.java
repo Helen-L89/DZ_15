@@ -34,6 +34,7 @@ public class AnimalApp_dz {
                     break;
                 case LIST:
                     System.out.println("ввод List");
+                    //System.out.println(animal);
                     break;
                 case EXIT:
                     exit=true;

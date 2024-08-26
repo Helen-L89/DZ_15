@@ -56,7 +56,10 @@ class main3dz {
         List<String> animal = new ArrayList<>();
 
         animal.add("Rany");//0
-        System.out.println(animal.get(0));
+        animal.add("Rany2");//1
+        animal.add("Rany3");//2
+        //System.out.println(animal.get(0));
+        System.out.println(animal);
     }
 
 
